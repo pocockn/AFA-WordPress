@@ -24,7 +24,7 @@
         <!-- <div class="row"> -->
           <div class="navbar-header ">
             <a class="navbar-brand" href="#">
-              <img src="<?php  echo get_template_directory(); ?>assets/img/logo.png" alt="AFA Logo Image" class="img-responsive">
+              <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="AFA Logo Image" class="img-responsive">
             </a>
           </div><!--Navbar header End-->
 
