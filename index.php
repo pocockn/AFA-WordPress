@@ -3,7 +3,7 @@
   <div class="row">
     <div class="container">
       <div class="col-md-12">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=88&txt=960%C3%97350&w=1170&h=350" alt="placeholder 960" class="img-responsive"/>
+        <img src="https://placeholdit.imgix.net/~text?txtsize=88&txt=960%C3%97350&w=1500&h=350" alt="placeholder 960" class="img-responsive"/>
       </div>
     </div>
   </div>

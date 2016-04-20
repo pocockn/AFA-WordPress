@@ -20,12 +20,13 @@ indent_mode=2
 [project]
 name=AFA
 base_path=/var/www/html/wordpress/wp-content/themes/AFA-WordPress
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
-FILE_NAME_0=1778;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Findex.php;0;4
+current_page=0
+FILE_NAME_0=1231;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Findex.php;0;4
 FILE_NAME_1=992;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fheader.php;0;4
