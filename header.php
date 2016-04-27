@@ -30,7 +30,7 @@
 
           <div class="col-md-3 hidden-sm hidden-xs pull-right" style="transform: translateY(95%);">
             <form class="navbar-form" role="search">
-              <div class="input-group">
+              <div class="input-group search-bar">
                 <input type="text" class="form-control" placeholder="Search AFA" name="srch-term" id="srch-term">
                 <div class="input-group-btn">
                   <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>

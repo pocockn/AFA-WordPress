@@ -47,7 +47,7 @@ add_action( 'after_setup_theme', 'wpt_setup' );
 	add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
 
 	function load_fonts() {
-            wp_register_style('loraItalic', 'http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
+            wp_register_style('loraItalic', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic,700');
             wp_enqueue_style( 'loraItalic');
             wp_register_style('montserrat', 'http://fonts.googleapis.com/css?family=Montserrat:400,700');
             wp_enqueue_style( 'montserrat');

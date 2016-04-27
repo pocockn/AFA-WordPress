@@ -10,6 +10,10 @@ Text Domain:Blueprint Web
 	background-color: #D9D9D9;
 }
 
+.search-bar {
+	width:100%;
+}
+
 .media-body{
     vertical-align: middle !important;
     width: 20%;
@@ -70,13 +74,14 @@ h3 {
 }
 
 body {
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
 body p {
     font-size: 17px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
 }
 p {
     margin: 0 0 10px;
@@ -91,16 +96,27 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.border-image {
+	border-radius: 2px;
 }
 
 .home-about {
     margin:40px 0px;
 }
-
+@media(min-width:400px) {
 .home-image {
     padding: 0px 0px 20px 30px;
 }
+}
+
+/*
+.btn {
+padding:0px;
+}
+* 
 
 /* Navigation styles for the top of some of the pages */
 
