@@ -1,15 +1,14 @@
   <?php get_header(); ?>
   
-  <div class="row">
-    <div class="container">
-      <div class="col-md-12">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=88&txt=960%C3%97350&w=1500&h=350" alt="placeholder 960" class="img-responsive"/>
+  <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/homeBanner.jpg" alt="placeholder 960" class="img-responsive"/>
+        </div>    
       </div>
-    </div>
   </div>
-
+<div class="container">
   <div class="row">
-    <div class="container">
       <div class="col-md-8">
         <h2 class="blue-header">Welcome to AFA</h2>
         <p>AFA is a privately owned company specialising in providing Construction Consultancy services to many sectors across the built environment throughout the UK and Europe.</p>
@@ -21,10 +20,10 @@
       </div>
     </div>
   </div>
-
+ <div class="container">
       <!-- Example row of columns -->
       <div class="row home-about">
-         <div class="container">
+        
           <div class="col-md-4">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/news.jpg" class="img-responsive border-image">
             <h2 class="blue-header">Latest News</h2>

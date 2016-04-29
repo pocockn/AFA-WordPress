@@ -27,9 +27,9 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=14
-FILE_NAME_0=2591;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Findex.php;0;4
-FILE_NAME_1=992;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fheader.php;0;4
+current_page=0
+FILE_NAME_0=1977;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Findex.php;0;4
+FILE_NAME_1=1416;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fheader.php;0;4
 FILE_NAME_2=851;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fnt%2Fbsp-iot-world-2016%2Fsidebar-iot-channel.php;0;4
 FILE_NAME_3=249;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fnt%2Fbsp-iot-world-2016%2Fsingle-iot-channel.php;0;4
 FILE_NAME_4=0;CSS;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Fgreen%20circus%20studios%2FProjects%2FMAP%20Consulting%2FWebsite%2Fmap-consulting%2Fwp-content%2Fthemes%2Fmap-consulting%2Fstyle.css;0;4
@@ -39,8 +39,5 @@ FILE_NAME_7=1498;HTML;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2FlandingPageGT%2Findex
 FILE_NAME_8=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Frecipesupdated%2Fcontact.php;0;4
 FILE_NAME_9=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Frecipesupdated%2Fmail.php;0;4
 FILE_NAME_10=544;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2FlandingPageGT%2Fmail.php;0;4
-FILE_NAME_11=1427;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Fgreen%20circus%20studios%2FProjects%2FToby%20Harwood%20-%20Great%20Traits%20Book%2FLandingPage%2Fsuccess.php;0;4
-FILE_NAME_12=466;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Fgreen%20circus%20studios%2FProjects%2FToby%20Harwood%20-%20Great%20Traits%20Book%2FLandingPage%2Fmail.php;0;4
-FILE_NAME_13=575;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDesktop%2Funsuccessful.php;0;4
-FILE_NAME_14=1469;PHP;0;EUTF-8;1;1;0;%2Ftmp%2Ffz3temp-1%2Findex.php;0;4
-FILE_NAME_15=1476;PHP;0;EUTF-8;1;1;0;%2Ftmp%2Ffz3temp-1%2Fsuccess.php;0;4
+FILE_NAME_11=26319;CSS;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fassets%2Fcss%2Fbootstrap.css;0;4
+FILE_NAME_12=2308;CSS;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fstyle.css;0;4
