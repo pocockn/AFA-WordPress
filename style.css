@@ -104,10 +104,12 @@ h6 {
 }
 
 .home-about {
-    margin:40px 0px;
+    margin-top:60px;
+}
+.banner-image {
+    margin-bottom:60px;
 }
 .home-image {
-	margin-top: 20px;
     margin-bottom: 10px;
     border-radius:2px;
 }
