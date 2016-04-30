@@ -9,13 +9,13 @@
   </div>
 <div class="container">
   <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-12">
         <h2 class="blue-header" style="margin-top:0px;">Welcome to AFA</h2>
         <p>AFA is a privately owned company specialising in providing Construction Consultancy services to many sectors across the built environment throughout the UK and Europe.</p>
 		<p>Added value for the Client is created through our multi-disciplinary approach and Practice Group Structure which enables us to produce optimum solutions, flexibility and client choice.</p>
 		<p>Above all, the approach of the Practice to clients is responsive with a dedicated commitment for quality of service to… “exceed expectations.”</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 hidden-sm hidden-xs">
 		<img src="<?php bloginfo('template_directory'); ?>/assets/img/londonHomePage.jpg" class="img-responsive home-image">
       </div>
     </div>

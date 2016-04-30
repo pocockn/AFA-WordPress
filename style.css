@@ -6,8 +6,10 @@ Version: 1.0
 Text Domain:Blueprint Web
 */
 
-.top-header {
-	background-color: #D9D9D9;
+.header-bg {
+	background-color: #F8F8F8;
+    margin-bottom: 10px;
+
 }
 
 .search-bar {
@@ -30,6 +32,11 @@ Text Domain:Blueprint Web
 	border:0px;
 }
 
+.nav > li > a {
+    color: #6d6e71;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
 .navbar-header img {
     max-height: 100%;
     width: auto;
@@ -61,8 +68,9 @@ body {overflow-x: hidden;}
 	width:100%;
 }
 
-.item-nav {
-	width:12.5%;
+.nav-justified {
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .blue-header {

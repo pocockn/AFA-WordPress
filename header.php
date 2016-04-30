@@ -17,13 +17,13 @@
   </head>
 
   <body>
-
+<div class="header-bg">
+ <div class="container">
   <div class="row">
     <header id="section_header" class="navbar-default main-nav" role="banner">
-      <div class="container">
         <!-- <div class="row"> -->
           <div class="navbar-header ">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
               <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="AFA Logo Image" class="img-responsive">
             </a>
           </div><!--Navbar header End-->
@@ -41,12 +41,12 @@
       </div><!-- /.container-fluid -->
     </header>
   </div>
-
-  <div class="row">
+</div>
+<div class="container">
+<div class="row">
 <header id="section_header" class="navbar-default secondonary-nav" role="banner">
-      <div class="container">
         <!-- <div class="row"> -->
-                 <div class="navbar-header ">
+                 <div class="navbar-header">
                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -55,15 +55,15 @@
                         </button>
                  </div><!--Navbar header End-->
                   <nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li class="item-nav"><a href="#slider_part" class="page-scroll">Home</a></li>
+                        <ul class="nav nav-justified">
+                            <li class="item-nav"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="page-scroll">Home</a></li>
                             <li class="item-nav"><a href="#service"  class="page-scroll">About Us</a> </li>
                             <li class="item-nav"><a href="#portfolio" class="page-scroll" >Clients</a> </li>
                              <li class="item-nav"><a href="#about" class="page-scroll">Development</a> </li>
-                             <li class="item-nav"><a href="#team" class="page-scroll">Our Services</a> </li>
+                             <li class="item-nav"><a href="#team" class="page-scroll">Services</a> </li>
                              <li class="item-nav"><a href="#blog" class="page-scroll">Sectors</a> </li>
                              <li class="item-nav"><a href="#contact" class="page-scroll">Sustainability</a> </li>
-                             <li class="item-nav"><a href="#contact" class="page-scroll">Contact Us</a> </li>
+                             <li class="item-nav"><a href="#contact" class="page-scroll">Contact</a> </li>
                         </ul>
                      </nav>
                 </div><!-- /.container-fluid -->
