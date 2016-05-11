@@ -42,27 +42,28 @@
 				</header>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row">
-				<header id="section_header" class="navbar-default secondonary-nav" role="banner">
-					<!-- <div class="row"> -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div><!--Navbar header End-->
-					`
-					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
-						<?php /* Primary navigation */
-						wp_nav_menu(array('menu' => 'top_menu', 'depth' => 2, 'container' => false, 'menu_class' => 'nav nav-justified',
-						//Process nav menu using our custom nav walker
-						'walker' => new wp_bootstrap_navwalker()));
-						?>
-					</nav>
-			</div><!-- /.container-fluid -->
-			</header>
-
-		</div>
+			<div class="container">
+				<div class="row">
+					<header id="section_header" class="navbar-default secondonary-nav" role="banner">
+						<!-- <div class="row"> -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div><!--Navbar header End-->
+						`
+						<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+							<?php /* Primary navigation */
+							wp_nav_menu(array('menu' => 'top_menu', 'depth' => 2, 'container' => false, 'menu_class' => 'nav nav-justified',
+							//Process nav menu using our custom nav walker
+							'walker' => new wp_bootstrap_navwalker()));
+							?>
+						</nav>
+				</div><!-- /.container-fluid -->
+				</header>
+			</div>
+		
+		<hr>

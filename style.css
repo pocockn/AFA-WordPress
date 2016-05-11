@@ -8,10 +8,19 @@ Text Domain:Blueprint Web
 
 .header-bg {
 	background-color: #F8F8F8;
-    margin-bottom: 10px;
-
 }
 
+.margin-image {
+    margin-top: 20px;
+}
+
+.nav-bg {
+	background-color:#F2F2F2
+}
+
+.first-para {
+	padding-bottom:10px;
+};
 .search-bar {
 	width:100%;
 }
@@ -70,7 +79,6 @@ body {overflow-x: hidden;}
 
 .nav-justified {
     width: 100%;
-    margin-bottom: 15px;
 }
 
 .blue-header {
