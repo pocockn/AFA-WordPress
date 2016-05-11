@@ -1,41 +1,62 @@
-<?php
-/**
- * The template for displaying Search Results pages.
- *
- * @package Shape
- * @since Shape 1.0
+<?php /**
+ * Template Name: Projects
  */
- 
-get_header(); ?>
- 
- <div class="container">
+
+get_header();
+?>
+
+<div class="container">
 	<div class="row">
-		<div class="col-md-12">
- 
-            <?php if ( have_posts() ) : ?>
- 
-                <header class="page-header">
-                    <h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'shape' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-                </header><!-- .page-header -->
- 
-                <?php /* Start the Loop */ ?>
-                <?php while ( have_posts() ) : the_post();
-                	
-                	$title = the_title();
- 
-                    echo $title;
-                   
- 
-                 endwhile; ?>
- 
-            <?php else : ?>
- 
-                <p>No Results</p>
- 
-            <?php endif; ?>
- 
-            </div><!-- end of col md 12  -->
-        </div><!-- end of row -->
-  </div><!-- end of container -->
- 
+		<div class="col-md-3 col-sm-12">
+			<div class="ih-item square effect4">
+				<a href="<?php the_permalink(); ?>">
+				<div class="img">
+					<img alt="" class="image-responsive" src="http://placehold.it/370x250">
+				</div>
+				<div class="info">
+					<h3>Test Project</h3>
+					<p>Description goes here</p>
+				</div> </a>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="ih-item square colored effect6 bottom_to_top">
+				<a href="<?php the_permalink(); ?>">
+				<div class="img">
+					<img alt="" class="image-responsive" src="http://placehold.it/370x250">
+				</div>
+				<div class="info">
+					<h3>Test Project</h3>
+					<p>Description goes here</p>
+				</div> </a>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="ih-item square colored effect13 bottom_to_top">
+				<a href="<?php the_permalink(); ?>">
+				<div class="img">
+					<img alt="" class="image-responsive" src="http://placehold.it/370x250">
+				</div>
+				<div class="info">
+					<h3>Test Project</h3>
+					<p>Description goes here</p>
+				</div> </a>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="ih-item square effect3 bottom_to_top">
+				<a href="<?php the_permalink(); ?>">
+				<div class="img">
+					<img alt="" class="image-responsive" src="http://placehold.it/370x250">
+				</div>
+				<div class="info">
+					<h3>Test Project</h3>
+					<p>Description goes here</p>
+				</div> </a>
+			</div>
+		</div>
+	</div><!-- end of row -->
+
+</div><!-- end of container -->
+
 <?php get_footer(); ?>
