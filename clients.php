@@ -9,7 +9,7 @@ get_header();
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12">
+		<div class="col-md-12">
 			<h2 class="blue-header">Clients</h2>
 			<p style="margin-bottom:30px;">
 				With over 10,000 attendees expected at the show this year, have a look below at a small snap shot of who will be at the event. We add on more every week so check back regularly for updates…
