@@ -17,17 +17,20 @@
 	</head>
 
 	<body>
-		<div class="header-bg">
-			<div class="container">
-				<div class="row">
-					<header id="section_header" class="navbar-default main-nav" role="banner">
-						<!-- <div class="row"> -->
-						<div class="navbar-header ">
-							<a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"> <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="AFA Logo Image" class="img-responsive"> </a>
-						</div><!--Navbar header End-->
+<div class="header-bg">
+	<!-- Navigation -->
+<div class="container">
+    <nav class="navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"> <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="AFA Logo Image" class="img-responsive"> </a>
+            </div>
 
-						<div class="col-md-3 hidden-sm hidden-xs pull-right" style="transform: translateY(95%);">
-							<form method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-form" role="search">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div>
+                <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm"  style="transform: translateY(100%);">
+                    <li class="page-scroll">
+                        <form method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-form" role="search">
 								<div class="input-group search-bar">
 									<input type="text" class="form-control" placeholder="Search AFA" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" id="srch-term">
 									<div class="input-group-btn">
@@ -36,12 +39,15 @@
 										</button>
 									</div>
 								</div>
-							</form>
-						</div><!--Navbar header End-->
-				</div><!-- /.container-fluid -->
-				</header>
-			</div>
-		</div>
+						</form>
+                    </li> 
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        <!-- /.container-fluid -->
+    </nav>
+ </div>
+</div>
 			<div class="container">
 				<div class="row">
 					<header id="section_header" class="navbar-default secondonary-nav" role="banner">
