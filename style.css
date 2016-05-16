@@ -140,45 +140,7 @@ padding:0px;
 
 /* Navigation styles for the top of some of the pages */
 
-#services-anchors {
-    padding: 18px 0 20px 18px;
-    display: table;
-    background: #f2f2f2;
-}
 
-#services-anchors ul.topmar {
-    margin: 0 0 15px;
-}
-
-#services-anchors ul {
-    margin: 0;
-    float: left;
-}
-
-#services-anchors ul li {
-    width: 312px;
-    height: 45px;
-    float: left;
-    border: 1px solid #dedbd2;
-    background: #fff;
-    list-style: none;
-    margin: 0 15px 0 0;
-    padding: 0;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
-    border-radius: 2px;
-}
-
-#services-anchors ul li a {
-    display: block;
-    padding: 15px 0;
-    color: grey;
-}
-
-#services-anchors ul li.last {
-    margin: 0;
-}
 
 .form-control {
     width:75%;
@@ -250,5 +212,29 @@ padding:0px;
 .nav-justified > li.active {
     color:#000 !important;
 }
+
+
+.service-anchor {
+    height: 45px;
+    border: 1px solid #dedbd2;
+    background: #fff;
+    list-style: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-bottom:15px;
+}
+
+.services-img {
+	margin-bottom: 15px;
+}
+
+.service-anchor > a {
+    display: block;
+    padding: 10px 0;
+    color: grey;
+}
+
 
 

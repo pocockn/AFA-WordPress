@@ -21,7 +21,7 @@ $archive_songs_query = new WP_Query( $args );
   <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/img/services.jpg" alt="placeholder 960" class="img-responsive"/>
+      <img src="<?php bloginfo('template_directory'); ?>/assets/img/services.jpg" alt="placeholder 960" class="img-responsive services-img"/>
         </div>    
       </div>
   </div>
@@ -31,31 +31,35 @@ $archive_songs_query = new WP_Query( $args );
       <!-- list items -->
       <div class="col-md-12 grey">
         <div id="services-anchors">
-          <ul class="topmar">
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Cost Consultancy</a>
-            </li>
-            <li class="last">
-              <a href="#">Project Management</a>
-            </li>
-          </ul>
-          <ul class="topmar">
-            <li>
-              <a href="#">Asset Management</a>
-            </li>
-            <li>
-              <a href="#">CDM Coordinators</a>
-            </li>
-            <li class="last">
-              <a href="#">Supply Chain Management</a>
-            </li>
-          </ul>
-        </div>
+        	<div class="col-md-4 col-sm-12 service-anchor">
+        		<a href="#">Services</a>
+        	</div>
+        	<div class="col-md-4 col-sm-12  service-anchor">
+        		<a href="#">Cost Consultancy</a>
+        	</div>
+        	<div class="col-md-4 col-sm-12  service-anchor">
+        		 <a href="#">Project Management</a>
+        	</div>
       </div>
-    </div>
+      </div>
+     </div>
+     
+     <div class="row">
+      <!-- list items -->
+      <div class="col-md-12 grey">
+        <div id="services-anchors">
+        	<div class="col-md-4 col-sm-12 service-anchor">
+        		<a href="#">Asset Management</a>
+        	</div>
+        	<div class="col-md-4 col-sm-12 service-anchor">
+        		    <a href="#">CDM Coordinators</a>
+        	</div>
+        	<div class="col-md-4 col-sm-12  service-anchor">
+        		<a href="#">Supply Chain Management</a>
+        	</div>
+      </div>
+      </div>
+     </div>
   </div>
 
   <div class="row">
