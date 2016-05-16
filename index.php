@@ -1,4 +1,12 @@
-  <?php get_header(); ?>
+  <?php 
+ /**
+ * Template Name: Home
+ */
+  get_header(); 
+  
+  ?>
+  
+<hr style="margin-top: 20px; margin-bottom: 0px; border: 0; border-top:none;">
   
   <div class="container">
 	<div class="row">

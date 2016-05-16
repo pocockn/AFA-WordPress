@@ -7,6 +7,8 @@
  */
  
 get_header(); ?>
+
+<hr>
  
  <div class="container">
 	<div class="row">

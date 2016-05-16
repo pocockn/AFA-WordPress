@@ -1,15 +1,10 @@
-<?php /**
- * Template Name: Services
- */
-get_header();
+<?php get_header();
 
 $args = array('post_type' => 'services', 'posts_per_page' => 6, );
 
 $services_query = new WP_Query($args);
 ?>
-
 <hr style="margin-top: 20px; margin-bottom: 0px; border: 0; border-top:none;">
-
   <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -22,9 +17,7 @@ $services_query = new WP_Query($args);
   	
   <?php $i = 1; ?>
   
-  <?php if( $services_query->have_posts() ) : while ( $services_query->have_posts() ) : $services_query->the_post(); 
-  		$id = get_the_id();
-  ?>
+  <?php if( $services_query->have_posts() ) : while ( $services_query->have_posts() ) : $services_query->the_post(); ?>
   	
   	<?php if ( $i == 1 || $i == 4 ) { ?>
      	<div class="row">
@@ -42,20 +35,22 @@ $services_query = new WP_Query($args);
      <?php  } ?>
      	
      <?php $i++;
-			;endwhile; endif;
+			endwhile; endif;
  ?>
   </div>
 
   <div class="row">
     <div class="container">
       <div class="col-md-12">
-        <h2 class="blue-header"><?php echo get_the_title($id); ?></h2>
-        
-		<?php echo get_the_content($id); ?>
+        <h2 class="blue-header">Our Services</h2>
+        <p>Our services prioritises the business needs of the client, providing a tailored service enabling informed decisions to be made at all stages throughout the duration of the project.</p>
+
+        <p>Our range of services are further enhanced by our extensive sector experience and in-house skill base.</p>
+
+        <p>with our specialist skills, the firm provides a consultancy based service that enhances its clients’ business and <i>“…Exceeds Expectations.”</i></p>
 
       </div>
     </div>
   </div>
-  
 
 <?php get_footer(); ?>   
