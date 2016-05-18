@@ -7,7 +7,7 @@
  */
  
 get_header(); ?>
- 
+ <hr>
  <div class="container">
 	<div class="row">
 		<div class="col-md-12">
@@ -30,7 +30,9 @@ get_header(); ?>
  
             <?php else : ?>
  
-                <p>No Results</p>
+                <h2 class="text-center">No Results</h2>
+                
+                <p class="text-center">Please search again</p>
  
             <?php endif; ?>
  

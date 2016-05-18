@@ -5,6 +5,11 @@
  */
 
 get_header();
+
+$taxonomy = 'clientType';
+$tax_terms = get_terms($taxonomy);
+
+// var_dump($tax_terms);
 ?>
 <hr>
 <div class="container">
@@ -21,24 +26,11 @@ get_header();
 <div class="container">
 	<div class="row">
 		<div class="col-md-3">
+			<?php foreach ($tax_terms as $tax) { ?>
 			<button type="button" class="btn btn-primary btn-lg btn-block">
-				Affordable Housing
+				<?php echo $tax->name; ?>
 			</button>
-			<button type="button" class="btn btn-primary btn-lg btn-block">
-				Education
-			</button>
-			<button type="button" class="btn btn-primary btn-lg btn-block">
-				Food Retail
-			</button>
-			<button type="button" class="btn btn-primary btn-lg btn-block">
-				Healthcare
-			</button>
-			<button type="button" class="btn btn-primary btn-lg btn-block">
-				Hotels
-			</button>
-			<button type="button" class="btn btn-primary btn-lg btn-block">
-				Industrial
-			</button>
+			<?php } ?>
 		</div>
 
 		<div class="col-md-9 attendees-page">

@@ -114,6 +114,45 @@ add_action( 'after_setup_theme', 'wpt_setup' );
 add_theme_support( 'post-thumbnails' );
 
 include('includes/custom-post.php');
+
+add_action( 'init', 'create_athlete_taxonomy' );
+
+function create_athlete_taxonomy() {
+	$labels = array(
+		'name'                           => 'Types',
+		'singular_name'                  => 'Type',
+		'search_items'                   => 'Search Client Types',
+		'all_items'                      => 'All Types',
+		'edit_item'                      => 'Edit Type',
+		'update_item'                    => 'Update Type',
+		'add_new_item'                   => 'Add New Type',
+		'new_item_name'                  => 'New Type Name',
+		'menu_name'                      => 'Client Type',
+		'view_item'                      => 'View Type',
+		'popular_items'                  => 'Popular Type',
+		'separate_items_with_commas'     => 'Separate types with commas',
+		'add_or_remove_items'            => 'Add or remove types',
+		'choose_from_most_used'          => 'Choose from the most used types',
+		'not_found'                      => 'No types found'
+	);
+
+	register_taxonomy(
+		'type',
+		array ('clients','procedures','post'),
+		array(
+			'label' => __( 'Client Type' ),
+			'hierarchical' => false,
+			'labels' => $labels,
+			'public' => true,
+			'show_in_nav_menus' => TRUE,
+			'show_tagcloud' => false,
+			'show_admin_column' => true,
+			'rewrite' => array(
+				'slug' => 'client-type'
+			)
+		)
+	);
+}
     
 
 ?>

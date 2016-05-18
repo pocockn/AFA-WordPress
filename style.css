@@ -8,6 +8,7 @@ Text Domain:Blueprint Web
 
 .header-bg {
 	background-color: #F8F8F8;
+	
 }
 
 .margin-image {
@@ -174,7 +175,7 @@ padding:0px;
     display: inline-block;
     width: 100%;
     vertical-align: middle;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 
@@ -234,6 +235,25 @@ padding:0px;
     display: block;
     padding: 10px 0;
     color: grey;
+}
+
+.attendees-page-list-li {
+	margin-bottom:20px;
+}
+
+@media (max-width: 768px) {	
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  height:150px;
+}
+
+.header-bg {
+	margin-bottom:100px;
+	
+}
+
 }
 
 

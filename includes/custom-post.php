@@ -125,6 +125,7 @@ register_post_type( 'sectors',
         'show_in_menu'          => true,
         'supports' 				=> array( 'title', 'editor','thumbnail', 'excerpt' ),
         'rewrite'               => array( 'slug' => 'training', 'with_front' => false ),
+        'taxonomies' => array('category', 'type'),
         'has_archive'           => true
     )
 );
@@ -134,21 +135,21 @@ add_action('init', 'training_register');
 
 
 
-// add_action( 'init', 'create_business_tax' );
+ add_action( 'init', 'create_business_tax' );
 
 
-// function create_business_tax() {
-// 	register_taxonomy(
-// 		'business',
-// 		array ('policies','procedures','post'),
-// 		array(
-// 			'label' => __( 'Business and Functions' ),
-// 			'rewrite' => array( 'slug' => 'business' ),
-// 			'hierarchical' => true,
-// 		)
-// 	);
+ function create_business_tax() {
+ 	register_taxonomy(
+ 		'clientType',
+ 		array ('clients','procedures','post'),
+ 		array(
+ 			'label' => __( 'Business and Functions' ),
+ 			'rewrite' => array( 'slug' => 'business' ),
+ 			'hierarchical' => true,
+ 		)
+ 	);
 
-// 	}
+ 	}
 
 // add_action( 'init', 'create_geography_tax' );
 
