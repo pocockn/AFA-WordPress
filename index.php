@@ -32,23 +32,23 @@
       <!-- Example row of columns -->
       <div class="row home-about">
         
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/news.jpg" class="img-responsive border-image">
             <h2 class="blue-header">Latest News</h2>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn" href="#">View details &raquo;</a></p>
+            <p><a class="btn" href="<?php echo get_page_link( get_page_by_title('blog')->ID ); ?>">View details &raquo;</a></p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/joinUs.jpg" class="img-responsive border-image">
             <h2 class="blue-header">Join Us</h2>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
          </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/sustain.jpg" class="img-responsive border-image">
             <h2 class="blue-header">Sustainability</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn" href="#">View details &raquo;</a></p>
+            <p><a class="btn" href="<?php echo get_page_link( get_page_by_title('sustainability')->ID ); ?>">View details &raquo;</a></p>
           </div>
         </div>
       </div>

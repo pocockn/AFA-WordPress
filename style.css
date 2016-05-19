@@ -264,4 +264,27 @@ padding:0px;
 	text-decoration: none;
 }
 
+/* Hover Styles */
+
+.ih-item.square.effect13 .info h3 {
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background: #111111;
+    margin: 30px 0 0 0;
+}
+
+.ih-item.square.effect13 .info p {
+    font-style: normal;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    padding: 20px 20px 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
 
