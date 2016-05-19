@@ -141,10 +141,9 @@ add_action('init', 'training_register');
  function create_business_tax() {
  	register_taxonomy(
  		'clientType',
- 		array ('clients','procedures','post'),
+ 		array ('clients','post'),
  		array(
- 			'label' => __( 'Business and Functions' ),
- 			'rewrite' => array( 'slug' => 'business' ),
+ 			'label' => __( 'Client Type' ),
  			'hierarchical' => true,
  		)
  	);

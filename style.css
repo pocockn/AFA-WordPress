@@ -256,5 +256,12 @@ padding:0px;
 
 }
 
+.btn-block > a {
+	color:#fff;
+}
+
+.btn-block > a:hover {
+	text-decoration: none;
+}
 
 
