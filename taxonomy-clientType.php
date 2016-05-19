@@ -31,9 +31,11 @@ $query = new WP_Query( $args );
 <div class="container">
 	<div class="row">
 		<div class="col-md-3">
-			<?php foreach ($tax_terms as $tax) { ?>
+			<?php foreach ($tax_terms as $tax) { 
+					$term_link = get_term_link( $tax );	
+			?>
 			<button type="button" class="btn btn-primary btn-lg btn-block">
-				<?php echo $tax->name; ?>
+				<a href="<?php echo $term_link; ?>"><?php echo $tax->name; ?></a>
 			</button>
 			<?php } ?>
 		</div>
