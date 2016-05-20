@@ -31,13 +31,17 @@ $project_query = new WP_Query($args);
 </div>
 
 <div class="container">
-	  <?php if( $project_query->have_posts() ) : while ( $project_query->have_posts() ) : $project_query->the_post(); 
+	  <?php $j=0; if( $project_query->have_posts() ) : while ( $project_query->have_posts() ) : $project_query->the_post(); 
   		$id = get_the_id();
 		$thumb_id = get_post_thumbnail_id();
 		$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
 		$thumb_url = $thumb_url_array[0];
-  		?>
+  		
+  		// If the current counter dividied by 4 leaves no remainder add a row
+       // This splits our archive into rows with 4 elements in
+     if($j % 4 == 0) { ?> 
 	<div class="row">
+	<?php } ?>
 		<div class="col-md-3 col-sm-12">
 			<div class="ih-item square effect13 bottom_to_top">
 				<a href="<?php the_permalink(); ?>">
@@ -50,7 +54,14 @@ $project_query = new WP_Query($args);
 				</div> </a>
 			</div>
 		</div>
-	</div><!-- end of row -->
-	<?php endwhile; endif; ?>
+	<?php $i++;
+	 
+	if ( $j != 0 && $j % 4 == 0 ) { ?>
+
+    </div><!--/.row-->
+	
+	<?php 
+    }
+	endwhile; endif; ?>
 </div><!-- end of container -->
 <?php get_footer(); ?>

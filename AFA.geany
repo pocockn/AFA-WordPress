@@ -27,7 +27,7 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
+current_page=14
 FILE_NAME_0=1977;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Findex.php;0;4
 FILE_NAME_1=1416;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fheader.php;0;4
 FILE_NAME_2=851;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fnt%2Fbsp-iot-world-2016%2Fsidebar-iot-channel.php;0;4
@@ -40,4 +40,6 @@ FILE_NAME_8=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Frecipesupdated%2F
 FILE_NAME_9=0;PHP;0;EUTF-8;1;1;0;%2Fhome%2Fpocockn%2FDropbox%2Frecipesupdated%2Fmail.php;0;4
 FILE_NAME_10=544;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2FlandingPageGT%2Fmail.php;0;4
 FILE_NAME_11=26319;CSS;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fassets%2Fcss%2Fbootstrap.css;0;4
-FILE_NAME_12=2308;CSS;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fstyle.css;0;4
+FILE_NAME_12=4739;CSS;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fstyle.css;0;4
+FILE_NAME_13=1125;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Ffooter.php;0;4
+FILE_NAME_14=1850;PHP;0;EUTF-8;1;1;0;%2Fvar%2Fwww%2Fhtml%2Fwordpress%2Fwp-content%2Fthemes%2FAFA-WordPress%2Fprojects.php;0;4
