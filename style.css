@@ -333,8 +333,12 @@ footer .subscribe .social a {
     color:#6d6e71;;
 }
 .copyright a {
-    color: #6d6e71;;
+    color: #6d6e71;
 }
 
+.search-result {
+	color:#6d6e71;
+	font-size:20px;
+}
 
 

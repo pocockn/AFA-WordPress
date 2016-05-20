@@ -8,6 +8,7 @@
  
 get_header(); ?>
  <hr>
+ 
  <div class="container">
 	<div class="row">
 		<div class="col-md-12">
@@ -15,18 +16,17 @@ get_header(); ?>
             <?php if ( have_posts() ) : ?>
  
                 <header class="page-header">
-                    <h1 class="page-title">Single Page</h1>
+                    <h2 class="blue-header">Search Results</h2>
                 </header><!-- .page-header -->
+
+                <?php while ( have_posts() ) : the_post(); ?>
  
-                <?php /* Start the Loop */ ?>
-                <?php while ( have_posts() ) : the_post();
-                	
-                	$title = the_title();
- 
-                    echo $title;
+                   <a href="<?php the_permalink(); ?>" class="search-result" title="Read more"><h3><?php the_title(); ?></h3></a>
+                   
+                   <p><?php the_excerpt(); ?></p>
                    
  
-                 endwhile; ?>
+                 <?php endwhile; ?>
  
             <?php else : ?>
  
@@ -39,5 +39,7 @@ get_header(); ?>
             </div><!-- end of col md 12  -->
         </div><!-- end of row -->
   </div><!-- end of container -->
+  
+
  
 <?php get_footer(); ?>
