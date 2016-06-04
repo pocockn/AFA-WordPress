@@ -106,7 +106,7 @@ body p {
 }
 p {
 	margin: 0 0 10px;
-	color: #6d6e71;
+	color: #454444;
 	line-height: 1.8em;
 }
 
@@ -196,8 +196,8 @@ body, h1, h2, h3, h4, h5, h6 {
 	}
 }
 @media screen and (max-width: 782px) {
-	.margin-image {
-	style=max-width:70%;
+	.margin-image {style=
+		max-width: 70%;
 	}
 }
 
@@ -251,7 +251,13 @@ body, h1, h2, h3, h4, h5, h6 {
 	.header-bg {
 		margin-bottom: 100px;
 	}
+	
+}
 
+@media (max-width:968px) {
+	.attendees-page {
+		margin-top: 30px;
+	}
 }
 
 .btn-block > a {
@@ -288,57 +294,71 @@ body, h1, h2, h3, h4, h5, h6 {
 /* 5.0 - Footer */
 
 footer {
-    background-color: #F8F8F8;
-    color: #6d6e71;;
+	background-color: #F8F8F8;
+	color: #6d6e71;;
 }
 footer.spacer {
-    margin-top: 100px;
-    padding: 2em 0;
+	margin-top: 100px;
+	padding: 2em 0;
 }
 footer h4 {
-    color: #6d6e71;;
+	color: #6d6e71;;
 }
-footer a,
-footer p {
-    line-height: 1.5em;
-    color: #6d6e71;;
+footer a, footer p {
+	line-height: 1.5em;
+	color: #6d6e71;;
 }
 footer a:hover {
-    color: #000;
+	color: #000;
 }
 footer .subscribe .form-control {
-    height: 30px;
-    padding: 4px 12px;
-    border: none;
+	height: 30px;
+	padding: 4px 12px;
+	border: none;
 }
-footer .subscribe .input-group-btn:last-child>.btn {
-    margin: 0;
+footer .subscribe .input-group-btn:last-child > .btn {
+	margin: 0;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-    box-shadow: none !important;
-    background: #016b30;
-    color: #6d6e71;
-    outline: none !important;
+	box-shadow: none !important;
+	background: #016b30;
+	color: #6d6e71;
+	outline: none !important;
 }
 footer .subscribe .input-group {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 footer .subscribe .social a {
-    font-size: 1.5em;
-    margin-right: 0.25em;
+	font-size: 1.5em;
+	margin-right: 0.25em;
 }
 .copyright {
-    background-color: #252423;
-    padding: 0.6em 0;
-    color:#6d6e71;;
+	background-color: #252423;
+	padding: 0.6em 0;
+	color: #6d6e71;;
 }
 .copyright a {
-    color: #6d6e71;
+	color: #6d6e71;
 }
 
 .search-result {
-	color:#6d6e71;
-	font-size:20px;
+	color: #6d6e71;
+	font-size: 20px;
 }
 
+.navbar-brand {
+	float: left;
+	height: 150px;
+	padding: 15px 0px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.item {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 20px 0;
+}
 

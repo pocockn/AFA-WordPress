@@ -53,7 +53,7 @@ $query = new WP_Query( $args );
 							$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
 							$thumb_url = $thumb_url_array[0];	
 				?>
-				<li class="attendees-page-list-li">
+				<li class="attendees-page-list-li" style="height: 100px;">
 					<div class="img-container" style="height: 100px;">
 						<img src="<?php echo $thumb_url; ?>" alt="Ross Stores" />
 					</div>

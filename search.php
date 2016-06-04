@@ -30,9 +30,9 @@ get_header(); ?>
  
             <?php else : ?>
  
-                <h2 class="text-center">No Results</h2>
+                <h2>No Results</h2>
                 
-                <p class="text-center">Please search again</p>
+                <p>Please search again</p>
  
             <?php endif; ?>
  

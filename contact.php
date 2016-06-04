@@ -11,7 +11,7 @@ get_header();
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/homeBanner.jpg" alt="placeholder 960" class="img-responsive banner-image"/>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/afa-headerImage3.jpg" alt="placeholder 960" class="img-responsive banner-image"/>
 		</div>
 	</div>
 </div>

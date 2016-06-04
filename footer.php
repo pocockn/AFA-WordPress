@@ -10,12 +10,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <h4>AFA</h4>
+                    <h4 style="font-weight:bold;">AFA</h4>
                     <p>A firm based in Cirencester</p>
                 </div>
 
                 <div class="col-sm-3">
-                    <h4>Quick Links</h4>
+                    <h4 style="font-weight:bold;">Quick Links</h4>
                     <?php /* Primary navigation */
                         wp_nav_menu( array(
                           'menu' => 'top_menu',
@@ -28,13 +28,8 @@
                     ?>
                 </div>
                 <div class="col-sm-4 subscribe">
-                    <h4>Keep up to date with the latest news</h4>
-                    <div class="input-group">
-						 [text* email-address class:form-control placeholder "Email"]
-						 <span class="input-group-btn">
-						 [submit class:btn class:btn-default "Subscribe"]
-						 </span>
-					</div>
+                    <h4 style="font-weight:bold;">Keep up to date with the latest news</h4>
+                    <?php echo do_shortcode( '[contact-form-7 id="434" title="AFA Footer"]'); ?>
                 </div>
             </div>
             <!--/.row-->

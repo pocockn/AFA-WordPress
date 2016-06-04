@@ -37,7 +37,7 @@ $project_query = new WP_Query($args);
 		$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
 		$thumb_url = $thumb_url_array[0];
   		
-  		// If the current counter dividied by 4 leaves no remainder add a row
+  		// If the current counter divided by 4 leaves no remainder add a row
        // This splits our archive into rows with 4 elements in
      if($j % 4 == 0) { ?> 
 	<div class="row">
@@ -63,5 +63,6 @@ $project_query = new WP_Query($args);
 	<?php 
     }
 	endwhile; endif; ?>
+	</div>
 </div><!-- end of container -->
 <?php get_footer(); ?>

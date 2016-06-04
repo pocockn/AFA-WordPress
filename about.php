@@ -1,43 +1,31 @@
 <?php
 /**
- * The template for displaying Search Results pages.
- *
- * @package Shape
- * @since Shape 1.0
+ * Template Name: About
  */
  
 get_header(); ?>
 
-
-<?php 
-// Start the loop.
-while ( have_posts() ) : the_post();
-	
-$id = get_the_ID();
-
-$image = get_field('header_image', $id );
-if ($image) { ?>
 <hr style="margin-top: 20px; margin-bottom: 0px; border: 0; border-top:none;">
+
   <div class="container">
   	<div class="row">
     	<div class="col-md-12">
-      		<img src="<?php echo $image[url]; ?>" alt="placeholder 960" class="img-responsive services-img"/>
+      		<img src="<?php bloginfo('template_directory'); ?>/assets/img/about.png" alt="placeholder 960" class="img-responsive services-img"/>
         </div>    
       </div>
   </div>
-<?php } else { ?>
-	<hr>
-<?php } ?>
- 
+
  <div class="container">
 	<div class="row">
 		<div class="col-md-12">
+ 
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 	
             <h2 class="blue-header"><?php the_title(); ?></h2>
  
             <p><?php the_content(); ?></p>
  
-            <?php endwhile; ?>
+            <?php endwhile; endif; ?>
  
             </div><!-- end of col md 12  -->
         </div><!-- end of row -->
